@@ -7,8 +7,9 @@ public class FileUploadForm {
 
     private byte[] data;
     private String fileName;
-    
-    public FileUploadForm() {}
+
+    public FileUploadForm() {
+    }
 
     public byte[] getData() {
         return data;
@@ -28,5 +29,5 @@ public class FileUploadForm {
     @PartType("text/plain")
     public void setFileName(String fileName) {
         this.fileName = fileName;
-    }    
+    }
 }
